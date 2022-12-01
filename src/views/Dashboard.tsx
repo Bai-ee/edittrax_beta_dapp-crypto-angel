@@ -198,7 +198,7 @@ const Dashboard = (): JSX.Element => {
               <button className="font-mathias sm:bg-black sm:rounded sm:text-yellow-75 px-2 sm:font-bold sm:py-2 sm:w-40 hover:text-gray-300 text-md hover:opacity-50" onClick={()=> {setShow(true); disableScroll();}}>DOWNLOAD
               </button>
               <Modal onClose = {() => {setShow(false); enableScroll()}} show={show}/>
-                <div className="hidden">
+                <div className="">
                   {active? <button className="bg-black rounded text-yellow-75 font-bold py-2 w-40 hover:text-gray-300" onClick={()=>
                   handleDisconnect()}>{`${account?.slice(0, -36)}...${account?.substring(38)}`}</button>: 
                     <button className="bg-black rounded text-yellow-75 font-bold py-2 w-40 hover:text-gray-300" onClick={()=>{
