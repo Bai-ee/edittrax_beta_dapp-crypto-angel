@@ -282,7 +282,7 @@ const Dashboard = (): JSX.Element => {
                 }}
                 show={show}
               />
-              <div className="">
+              {/* <div className="">
                 {active ? (
                   <button
                     className="bg-black rounded text-yellow-75 font-bold py-2 w-40 hover:text-gray-300"
@@ -300,7 +300,7 @@ const Dashboard = (): JSX.Element => {
                     Etereum
                   </button>
                 )}
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="mx-4 md:mx-0 h-iframeLoad">
