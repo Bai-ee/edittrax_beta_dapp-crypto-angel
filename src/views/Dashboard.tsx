@@ -122,8 +122,8 @@ const Dashboard = (): JSX.Element => {
       lokt_612561: lockt_612561,
       player_thumbnail: et03_thumb,
       release_art: et03_release,
-      mint_price: "X",
-      floor_price: "10",
+      mint_price: "8",
+      floor_price: "8",
       collect_url: "https://hic.af/o/792748",
       metadata_url:
         "https://cloudflare-ipfs.com/ipfs/QmZ1b4WKThayRbSsja75dBpVkXDmVxzEpmhFsF69SPAH49",
